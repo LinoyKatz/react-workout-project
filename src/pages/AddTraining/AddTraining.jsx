@@ -9,6 +9,7 @@ import {
 } from "../../service/localStorage";
 import "./addTraining.css";
 
+//a page with form to add new training
 const AddTraining = () => {
   const navigate = useNavigate();
   const { id } = useParams();

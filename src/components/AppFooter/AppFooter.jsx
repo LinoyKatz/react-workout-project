@@ -8,6 +8,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { BsWhatsapp } from "react-icons/bs";
 import { SlSocialGithub } from "react-icons/sl";
 
+//footer section with my own logo and some contact info (no links yet)
 const AppFooter = () => {
   return (
     <div className="footer">

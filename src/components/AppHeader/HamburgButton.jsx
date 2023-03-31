@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./hamburgButton.css";
 import "./appHeader.css";
 
+//nav option on mobile
 const HamburgButton = () => {
   const [navBar, setNavBar] = useState(false);
   return (

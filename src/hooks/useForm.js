@@ -3,6 +3,7 @@ import { useState } from "react";
 export const useForm = (initialState = {}) => {
   const [inputValues, setInputValues] = useState(initialState);
 
+  //functions for the form that the user is filling
   const resetForm = () => {
     setInputValues(initialState);
   };

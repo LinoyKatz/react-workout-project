@@ -3,6 +3,7 @@ import { getTrainingByType } from "../../service/localStorage";
 import { FiFilter } from "react-icons/fi";
 import { getAllTrainingsFromApi } from "../../api/fetch";
 
+//search bar for filtering chosen exercises/coaches.
 const SearchBar = ({ setType }) => {
   const [trainings, setTrainings] = useState([]);
   useEffect(() => {
@@ -41,7 +42,7 @@ const SearchBar = ({ setType }) => {
         <option value="Suzan">Suzan</option>
         <option value="Mark">Mark</option>
         <option value="Linoy">Linoy</option>
-        <option value="Kelly">Kelly</option>
+        <option value="Arik">Arik</option>
       </select>
       <FiFilter size="40px" />
     </div>

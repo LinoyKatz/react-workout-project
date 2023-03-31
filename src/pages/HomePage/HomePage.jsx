@@ -5,6 +5,7 @@ import WelcomeSectionButton from "../../components/WelcomeSection/WelcomeSection
 import "./homePage.css";
 import { FiCheckCircle } from "react-icons/fi";
 
+//welcome and about section
 const HomePage = () => {
   return (
     <div>

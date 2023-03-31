@@ -10,6 +10,7 @@ import {
 import "./trainingList.css";
 import SearchBar from "../../components/SearchBar/SearchBar";
 
+//here the user can track and watch all of his privious and future workouts
 const TrainingList = () => {
   const [arrayToShow, setArrayToShow] = useState([]);
   const [isAdding, setIsAdding] = useState(false);

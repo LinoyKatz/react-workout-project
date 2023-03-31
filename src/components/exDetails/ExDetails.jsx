@@ -7,6 +7,7 @@ import { codeStr, getTrainingById } from "../../service/localStorage";
 
 import "./exDetails.css";
 
+//explenation and details about each exercise (using API)
 const ExDetails = () => {
   const exId = useParams().id;
   const [training, setTraining] = useState({});

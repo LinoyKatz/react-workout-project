@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom";
 import "./trainingDetails.css";
 import { trainingData } from "../../data/trainingData";
 
+//a section with more info about the workout- not finished and not in use at the moment. i used API instead
+
 const TrainingDetails = () => {
   const trainingId = useParams().id;
   const [training, setTraining] = useState({});

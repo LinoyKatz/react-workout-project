@@ -1,3 +1,4 @@
+//default data apears at the first time
 export const trainingData = [
   {
     id: "a1ae-54f1-5d05-07d4-f4e032fdc46z",
