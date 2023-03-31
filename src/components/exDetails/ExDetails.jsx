@@ -11,8 +11,10 @@ const ExDetails = () => {
   const exId = useParams().id;
   const [training, setTraining] = useState({});
   const [ex, setEx] = useState({});
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
+    setIsLoading(true);
     setTraining(getTrainingById(exId));
   }, []);
 
@@ -22,13 +24,17 @@ const ExDetails = () => {
         encodeURIComponent(training.type).replace(/%20/g, "%20"),
         setEx
       );
+      setIsLoading(false);
     }
   }, [training]);
 
-  console.log(ex);
   return (
     <div className="ex-details-section">
-      {ex ? (
+      {isLoading && "LOADING..."}
+      {/* {!ex ? (
+        "LOADING..."
+      ) : ( */}
+      {ex && (
         <section>
           <h1>Exercize name: {ex.name}</h1>
 
@@ -37,8 +43,6 @@ const ExDetails = () => {
           <h2>you need: {ex.equipment}</h2>
           <img src={ex.gifUrl} alt={ex.name} />
         </section>
-      ) : (
-        "LOADING..."
       )}
       <Link to="/training">
         <button className="back-to-trainings-btn">Back to trainings</button>

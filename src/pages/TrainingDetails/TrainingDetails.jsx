@@ -1,21 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import { trainingData } from "../../data/trainingData";
 import "./trainingDetails.css";
-import { AiOutlineInstagram, AiOutlineStar } from "react-icons/ai";
+import { trainingData } from "../../data/trainingData";
 
 const TrainingDetails = () => {
   const trainingId = useParams().id;
   const [training, setTraining] = useState({});
 
-  const { type, hour, date, coach, level, img, isPaid } = training;
+  const { type, hour, date, coach, level, isPaid } = training;
 
   useEffect(() => {
     setTraining(trainingData.filter((t) => t.id === trainingId)[0]);
   }, []);
 
-  // const LEVEL =<AiOutlineStar/>;
   const LEVEL = "💪";
 
   return (

@@ -3,7 +3,7 @@ import axios from "axios";
 // ExerciseDB;  RapidAPI
 
 const URL = "https://exercisedb.p.rapidapi.com/exercises";
-const APIKEY = "89314b4811msh49eaadf54dfa80bp1247f2jsn49425defdfed";
+const APIKEY = "fb6e6571dcmsh9d160ef28b3a859p1ab27djsn086531660161";
 const HOST = "exercisedb.p.rapidapi.com";
 const method = "GET";
 

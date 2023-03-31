@@ -11,11 +11,6 @@ const HomePage = () => {
       <h1 className="welcome-h1">Welcome to our studio</h1>
 
       <div className="welcome-section">
-        {/* <article>
-        <h2>Great to have you back here...</h2>
-        <hr />
-     </article> */}
-
         <section className="about-section">
           <span> Hello! </span>
           <br />

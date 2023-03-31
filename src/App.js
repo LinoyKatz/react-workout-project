@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
+import About from "./pages/About/About";
+import HomePage from "./pages/HomePage/HomePage";
 import AppFooter from "./components/AppFooter/AppFooter";
 import AppHeader from "./components/AppHeader/AppHeader";
 import ExDetails from "./components/exDetails/ExDetails";
-import About from "./pages/About/About";
 import AddTraining from "./pages/AddTraining/AddTraining";
-import HomePage from "./pages/HomePage/HomePage";
 import TrainingList from "./pages/TrainingList/TrainingList";
 
 function App() {
