@@ -29,5 +29,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 ## bugs :
-date input dosnt updated when you enter a current training.
-navigation bar doesnt close when arriving to the asked page.
+date input dosnt update when you edit a current training.
+navigation bar doesnt close when arriving to the asked page- not fixed yet.
