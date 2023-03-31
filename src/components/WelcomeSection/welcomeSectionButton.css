@@ -1,0 +1,28 @@
+
+
+
+ .wlcome-btn{
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    border: none;
+    background-color: rgba(255, 192, 203, 0.658);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 20px 2px;
+    cursor: pointer;
+    padding: .5vw 2.5vw;
+    margin-top: 10px;
+    margin-bottom: 10vh;
+    max-height: 10vh;
+}
+ .wlcome-btn:hover {
+box-shadow: 2px 2px 20px 5px;
+ }
+
+
+.welcome-sct{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    
+}

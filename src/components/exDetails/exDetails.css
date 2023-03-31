@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.ex-details-section{
+    max-width: 50vw;
+    margin: 0 auto;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    /* text-shadow: 2px 2px 10px 2px white; */
+}
+
+.ex-details-section section{
+    margin: 0 auto;
+    align-items: center;
+    max-width: 50vw;
+    text-align: center;
+}
+
+.ex-details-section h1{
+    max-width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+
+.ex-details-section h2 {
+    max-width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+}
+
+.ex-details-section img {
+    max-width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+box-shadow: 2px 2px 10px 5px white;
+}
+
+.back-to-trainings-btn{
+    font-family: 'Julius Sans One', sans-serif;
+        color: white;
+        border: none;
+        background-color: rgba(255, 192, 203, 0.658);
+        border-radius: 20px;
+        font-size: 1.2rem;
+        box-shadow: 2px 2px 20px 2px;
+        cursor: pointer;
+        padding: .5vw 2.5vw;
+        margin-top: 10px;
+        margin-bottom: 10vh;
+        max-height: 10vh;
+}

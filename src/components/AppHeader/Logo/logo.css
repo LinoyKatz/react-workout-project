@@ -1,0 +1,23 @@
+
+.logo {
+    color: rgb(104, 99, 99);
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+font-family: 'Permanent Marker', cursive;
+
+}
+
+.logo span {
+    font-weight: 600;
+    font-size: 2em;
+    color: rgba(187, 57, 122, 0.872);
+  
+}
+
+.logo:hover{
+cursor: pointer;
+
+}
